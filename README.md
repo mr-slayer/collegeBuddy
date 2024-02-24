@@ -1,0 +1,2 @@
+# collegeBuddy
+A job portal
