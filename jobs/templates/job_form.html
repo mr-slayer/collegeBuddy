@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Job</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            max-width: 100px;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .job-form {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .job-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .job-form input,
+        .job-form button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .job-form button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            header nav {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="https://firebasestorage.googleapis.com/v0/b/collegebuddy-7d37f.appspot.com/o/1708025192603v3bl139a.png?alt=media&token=51761c83-c728-47a1-ac7e-27db93ac02a5" alt="Company Logo">
+        </div>
+        <nav>
+            <a href="#">Contact Us</a>
+            <a href="#">Blog</a>
+            <a href="#">Community</a>
+            <a href="#">Courses</a>
+        </nav>
+    </header>
+
+    <h1>Post a Job</h1>
+
+    <div class="job-form">
+        <form method="POST" action="{% url 'saved' %}" enctype="multipart/form-data">
+            {% csrf_token %}
+
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required>
+
+            <label for="companyName">Company Name:</label>
+            <input type="text" id="companyName" name="companyName" required>
+
+            <label for="lastDate">Last Date:</label>
+            <input type="date" id="lastDate" name="lastDate" required>
+
+            <label for="salary">Salary:</label>
+            <input type="text" id="salary" name="salary" required>
+
+            <label for="link">Apply Link:</label>
+            <input type="url" id="link" name="link" required>
+
+            <button type="submit">Submit Job</button>
+        </form>
+    </div>
+
+</body>
+</html>

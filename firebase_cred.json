@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "collegebuddy-7d37f",
+  "private_key_id": "7d61cb1852a707d554f4f1d012106227e5e54d09",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDC6rTvA4jzGLAn\nliKAH5VxesOgY//P/vSRhehb5yNe8GUwz6tTj6oCV9NE9llaCg73OlZW8emVwOXP\nNJyyPLRX7xJyqZInCKyncno14iitGUFuh38dyb3zKNOi20EODJuiSfpNqEUrbeNo\nPYYB7Y8zjDjdDbKPj4C5Fc7JtHDoilvFaS/7Af75On56JB33p6v5xBym2zYXkH+4\nkn4rDKf35lseWCDHUJKF9UonNfbroI6vVwTlc+NVgj92GE6WnnSYRlRL5eguLavO\noyIBkbkjXmwOLJ7ca6WkCgFVBR05ByL+GNJwa2ZYPGXy9LkankH26HBxGnMCx6bI\nj+Qjx4gjAgMBAAECggEANli8xBvHNoi+rPr2eaTUxURGgVUAgZ0D0gN1KxLCUPlU\nLYzppy3aaDbWqFbLyQge7h3s7ucaiu+y49g2jJfSbOYyzZesMYgAo9uOabG6R7FQ\nBiJvdf3HIaJTiAf8Fo+7YT+hM7/kMVy9WFY3JBh5ohTJ0hC8pbyMVo7XDnRqOtvD\nZj9hbpO8VVkq1OxOOjjlb0VuQj0r3CSfYCtrNwiqnvWKesIBfqbTQyZcfmlBq5tN\n6CI4NptW7/gZ0aedt0D++Tgq2ijNaoA2q4fPhw0he5VST6sHloSV8ZDVuG0Dlqib\nJb+NDd68CuUxV6pg9YYsmxtwHPvDRavoijFgQ45FIQKBgQD+Wua3eDPhuFxcEkju\neNLZPPbZhi7nTZnDXZESXkuQ1/R5aVyQ98TKz68MKTRmQcOM0b7wmNWjRPDASPos\nYJ1mH3K7P0KmpYOL5wzSvxLDJYI3BLiVW+kC0w5WLeEXVSHM27GiggmRQV/o+HCd\n5sspxjH2Fw7n+Wjyc838eYC58wKBgQDELWb5X4a4zWgLNExlaVpI6Eaim9ALlG0D\nQv7ocCpg3QEIuEvR7XA1zQgO0xkHv4z9jvg5KU5NlG1wTSNMTEwzm9lTqyYVvDKT\nvaKflFwRtPhh2q8ZPcP0+zm94VkQTdW0TYsVPJn8EdCBrH/sL+Zl6ZIbBgfI8Ic0\nIGPkp2zVEQKBgQDF+3OCc6nOlHYvpHvoQ1u7hFyQTIXNvPVmwDnflk4zXCULLBvF\nK1aelrGmQZxry9yui8SX+h6wi0TqJuO0Dy/1AZ2IamEy3bpa92lf0SKFi3ij4qTa\nfUQN0sJiCiwewUEh+A94cseHrN8+s8LU5YRV69OPvbr4jYZG0iUP1HOCSQKBgQC6\nVcmuae7ED86Yfddmp9fq0j1tbIQCy7tz0qney9Nk5+Z4itzxjA79+z6BHj9zHZ1k\npezeFn7ar3X3qj0x1nK2vnyBvVnSYUzFCeWyn6+H3hXilF2mowVC53EkCyyWkOfA\nd7r4s/Qq+hzLXrau95xnBqERa/vu/4/ckjtvzxtPkQKBgQDPIp2BR714AkQOxrdf\nFObrcDr+krdFxmcWFumNLR+qSBq36MKOFX7WQugLZGDmjnnW1kXAxt/gDhAPUQRn\nXDb4Ody+kI7m17f73aV5fEHYL2KjlKElOXbwc1YkPCGRWU4OXB6PBr1HRqLlEO+d\nTylu3xC6KIxrNxARMzEi6USglw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-o2ba2@collegebuddy-7d37f.iam.gserviceaccount.com",
+  "client_id": "103746205066609870046",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-o2ba2%40collegebuddy-7d37f.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
